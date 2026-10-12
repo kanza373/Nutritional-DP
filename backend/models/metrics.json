@@ -1,0 +1,94 @@
+{
+  "Iron_Deficiency_Risk": {
+    "candidates": {
+      "LogisticRegression": {
+        "accuracy": 0.7602,
+        "precision": 0.7811,
+        "recall": 0.7602,
+        "f1": 0.7582
+      },
+      "DecisionTree": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "RandomForest": {
+        "accuracy": 0.9999,
+        "precision": 0.9999,
+        "recall": 0.9999,
+        "f1": 0.9999
+      }
+    },
+    "deployed_model": "RandomForest"
+  },
+  "Calcium_Deficiency_Risk": {
+    "candidates": {
+      "LogisticRegression": {
+        "accuracy": 0.8391,
+        "precision": 0.843,
+        "recall": 0.8391,
+        "f1": 0.8385
+      },
+      "DecisionTree": {
+        "accuracy": 0.9928,
+        "precision": 0.9928,
+        "recall": 0.9928,
+        "f1": 0.9928
+      },
+      "RandomForest": {
+        "accuracy": 0.9902,
+        "precision": 0.9902,
+        "recall": 0.9902,
+        "f1": 0.9902
+      }
+    },
+    "deployed_model": "RandomForest"
+  },
+  "Vitamin_D_Deficiency_Risk": {
+    "candidates": {
+      "LogisticRegression": {
+        "accuracy": 0.6435,
+        "precision": 0.6965,
+        "recall": 0.6435,
+        "f1": 0.6458
+      },
+      "DecisionTree": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "RandomForest": {
+        "accuracy": 0.9948,
+        "precision": 0.995,
+        "recall": 0.9948,
+        "f1": 0.9948
+      }
+    },
+    "deployed_model": "RandomForest"
+  },
+  "Vitamin_B12_Deficiency_Risk": {
+    "candidates": {
+      "LogisticRegression": {
+        "accuracy": 0.854,
+        "precision": 0.8565,
+        "recall": 0.854,
+        "f1": 0.854
+      },
+      "DecisionTree": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "RandomForest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "deployed_model": "RandomForest"
+  }
+}

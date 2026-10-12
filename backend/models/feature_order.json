@@ -1,0 +1,16 @@
+[
+  "Age",
+  "Gender",
+  "Diet_Type",
+  "Calories",
+  "Protein",
+  "Vegetable_Intake",
+  "Fruit_Intake",
+  "Dairy_Intake",
+  "Water_Intake",
+  "Meal_Frequency",
+  "BMI",
+  "Physical_Activity",
+  "Is_Vegan",
+  "Is_Vegetarian"
+]

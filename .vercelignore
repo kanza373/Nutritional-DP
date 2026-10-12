@@ -1,0 +1,6 @@
+backend/ICD_Project.ipynb
+backend/nutritional_mock_data_100000.csv
+backend/train.py
+backend/notebook_runtime.py
+backend/__pycache__/
+**/__pycache__/

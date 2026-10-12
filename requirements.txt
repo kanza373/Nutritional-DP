@@ -1,0 +1,19 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+joblib>=1.3
+pydantic>=2.0
+python-multipart>=0.0.9
+
+# --- OCR + NLP feature dependencies (added; ML pipeline ko affect nahi karte) ---
+pytesseract>=0.3.10
+Pillow>=10.0
+
+# spaCy OPTIONAL hai. nlp_extraction.py iske baghair bhi poori tarah chalta hai
+# (Python ki standard library par fallback kar leta hai). Behtar tokenization
+# chahiye to ye do commands chalayein:
+#     pip install spacy
+#     python -m spacy download en_core_web_sm
+# spacy>=3.7
